@@ -175,6 +175,9 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
+  .nav__list {
+    width: 100vw;
+  }
   .nav__link {
     font-size: 30px;
   }
