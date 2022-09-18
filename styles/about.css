@@ -1,0 +1,10 @@
+.about {
+  padding: 190px 0 130px;
+}
+.about__title {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+  margin-bottom: 25px;
+}
