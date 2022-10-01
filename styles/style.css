@@ -17,7 +17,7 @@ a {
   color: inherit;
 }
 body {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 400;
   min-height: 100vh;
@@ -40,6 +40,13 @@ body {
   color: #000000;
   margin-bottom: 90px;
 }
+.page-title {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+  margin-bottom: 25px;
+}
 .primary__btn {
   padding: 20px 50px;
   background-color: #6e9c9f;
@@ -48,6 +55,11 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 5px;
+  }
 }
 /* ------------- */
 /*----- Nav----- */
@@ -198,11 +210,12 @@ body {
   .nav {
     padding-top: 20px;
   }
-  .nav__item {
-    margin-bottom: 40px;
+  .nav__phone {
+    padding-left: 0;
   }
-  .nav__link {
-    font-size: 26px;
+  .nav__phone::before {
+    width: 0;
+    height: 0;
   }
 }
 
@@ -365,5 +378,10 @@ body {
 @media screen and (max-width: 992px) {
   .crumbs {
     margin-bottom: 100px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .crumbs {
+    margin-bottom: 50px;
   }
 }
