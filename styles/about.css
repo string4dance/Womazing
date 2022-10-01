@@ -44,4 +44,33 @@
 }
 .about--reverse {
   order: 2;
+  margin: 0 0 0 20px;
+}
+.about__link {
+  display: block;
+  max-width: 260px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+  .about {
+    padding: 75px 0 75px;
+  }
+  .about__img {
+    max-width: 375px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about__inner {
+    flex-direction: column;
+  }
+  .about__img {
+    margin: 0 0 40px 0;
+  }
+  .about--reverse {
+    order: 0;
+    margin: 0 0 40px 0;
+  }
 }

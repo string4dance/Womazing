@@ -362,3 +362,8 @@ body {
   line-height: 140%;
   letter-spacing: 0.02em;
 }
+@media screen and (max-width: 992px) {
+  .crumbs {
+    margin-bottom: 100px;
+  }
+}
