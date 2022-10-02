@@ -1,3 +1,35 @@
 .item {
-  padding: 110px 0 130px;
+  padding: 190px 0;
+}
+.item__inner {
+  display: flex;
+  align-items: center;
+}
+.item__img {
+  margin-right: 75px;
+}
+.item__price {
+  margin-bottom: 60px;
+}
+.item__price-new {
+  font-size: 40px;
+  color: #998e78;
+  margin-right: 30px;
+}
+.item__price-old {
+  font-size: 30px;
+  text-decoration-line: line-through;
+  color: #9c9c9c;
+}
+.item__size,
+.item__color {
+  margin-bottom: 35px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+}
+.item__size-list,
+.item__color-list {
+  margin-bottom: 60px;
 }
