@@ -57,6 +57,11 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+@media screen and (max-width: 992px) {
+  .primary__btn {
+    padding: 20px 20px;
+  }
+}
 @media screen and (max-width: 480px) {
   .container {
     padding: 0 5px;
@@ -384,5 +389,6 @@ body {
 @media screen and (max-width: 480px) {
   .crumbs {
     margin-bottom: 50px;
+    flex-wrap: wrap;
   }
 }

@@ -1,0 +1,26 @@
+.shop__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 92px;
+}
+.shop__item {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.shop__item:last-child {
+  margin-right: 0;
+  margin-bottom: 0px;
+}
+.shop__button {
+  border: 1px solid #000000;
+  background-color: #fff;
+  padding: 19px 65px;
+  cursor: pointer;
+  font-size: 17px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+}
+.shop__button-active {
+  background-color: #000;
+  color: #fff;
+}

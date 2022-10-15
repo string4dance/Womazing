@@ -4,12 +4,15 @@
 .item__inner {
   display: flex;
   align-items: center;
+  margin-bottom: 130px;
 }
 .item__img {
   margin-right: 75px;
 }
 .item__price {
   margin-bottom: 60px;
+  display: flex;
+  align-items: center;
 }
 .item__price-new {
   font-size: 40px;
@@ -121,4 +124,31 @@
 }
 .item__input-color:checked.item__input-color::before {
   border: 1px solid #000000;
+}
+.primary__amount {
+  width: 64px;
+  padding: 16px 0 16px 10px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+}
+.item--size {
+  max-width: 350px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .item__inner {
+    flex-direction: column;
+  }
+  .item__img {
+    margin-right: 0;
+    max-width: 550px;
+    width: 100%;
+  }
+  .item__form {
+    max-width: 550px;
+    width: 100%;
+  }
 }
