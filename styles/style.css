@@ -56,6 +56,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  cursor: pointer;
 }
 @media screen and (max-width: 992px) {
   .primary__btn {

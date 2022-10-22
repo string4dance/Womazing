@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/contacts.css" />
     <title>Contacts</title>
   </head>
   <body>
@@ -36,7 +37,51 @@
       </nav>
     </div>
     <main>
-      <h1>Контакти</h1>
+      <section class="contacts">
+        <div class="container">
+          <h1 class="page-title">Контакты</h1>
+          <ul class="crumbs">
+            <li class="crumbs__item">
+              <a class="crumbs__link" href="./index.html">Главная</a>
+            </li>
+            <li class="crumbs__item">Контакты</li>
+          </ul>
+          <div class="image">
+            <img
+              class="contacts__img"
+              src="./img/contacts/bigcard.jpg"
+              alt="bigcard"
+            />
+          </div>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <p class="contacts__name">Телефон</p>
+              <p class="contacts__value">+7 (495) 823-54-12</p>
+            </li>
+            <li class="contacts__item">
+              <p class="contacts__name">E-mail</p>
+              <p class="contacts__value">info@sitename.com</p>
+            </li>
+            <li class="contacts__item">
+              <p class="contacts__name">Адрес</p>
+              <p class="contacts__value">г. Москва, 3-я улица Строителей, 25</p>
+            </li>
+          </ul>
+          <p class="contacts__small-title">Напишите нам</p>
+          <form class="contacts__form">
+            <input class="contacts__input" type="text" placeholder="Имя" />
+            <input class="contacts__input" type="text" placeholder="E-mail" />
+            <input class="contacts__input" type="text" placeholder="Телефон" />
+            <textarea
+              class="contacts__textarea"
+              cols="30"
+              rows="10"
+              placeholder="Сообщение"
+            ></textarea>
+          </form>
+          <button class="primary__btn">Отправить</button>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="container">
